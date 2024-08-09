@@ -1,0 +1,17 @@
+@use 'custom';
+
+//para importar os futuros componentes;
+
+// @use 'components/';
+@use 'components/animations';
+@use 'components/buttons';
+@use 'components/mixins';
+@use 'components/typography';
+
+//importar as seções;
+@use 'sections/footer';
+@use 'sections/contact';
+@use 'sections/navbar';
+@use 'sections/whoiam';
+@use 'sections/experience';
+

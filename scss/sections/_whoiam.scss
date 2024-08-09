@@ -1,0 +1,57 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.perfil {
+    width: 100%;
+    margin: 60px auto 0 auto;
+    position: relative; // Define a div principal como referência para posicionamento
+
+    .border-dark {
+        background-image: url(https://i.pinimg.com/564x/e8/eb/83/e8eb8339caac6e80433df7cf2a29af7e.jpg);
+        background-color: $baby-blue;
+        padding: 2rem;
+        padding-bottom: 60px;
+        border-radius: 25px;
+        width: 100%;
+        height: auto;
+        position: relative; // Necessário para o posicionamento absoluto do img
+
+
+
+        .border-primary {
+            padding: 1rem;
+            position: relative; // Necessário para o posicionamento do img
+            img {
+                max-width: 140px;
+                height: auto;
+                border-radius: 50%;
+                position: absolute; // Posicionamento absoluto
+                top: 290%; // Centraliza verticalmente em relação ao .border-primary
+                left: 50%; // Posiciona a imagem 50% à direita do início do .border-primary
+                transform: translate(-50%, -50%); // Move a imagem 50% para cima e para a esquerda para centralizá-la
+            }
+         
+        }
+    }
+}
+
+
+.nome-rafa {
+    text-align: center; // Centraliza o texto horizontalmente dentro da div
+    font-size: 2rem; // Ajusta o tamanho da fonte
+    color: $dark-blue; // Ajusta a cor do texto
+    margin-top: 60px; // Espaço acima do texto, ajuste conforme necessário
+
+}
+
+.nome-rafa-2 {
+    text-align: center; // Centraliza o texto horizontalmente dentro da div
+    // font-size: 2rem; 
+    color: $dark-blue; // Ajusta a cor do texto
+    // margin-top: 60px; 
+}
+
+.sobre-mim{
+    text-align: center;
+
+}

@@ -11845,7 +11845,7 @@ textarea.form-control-lg {
   }
 }
 .menu {
-  background: linear-gradient(to right, rgba(13, 110, 253, 0.95), rgba(108, 117, 125, 0.95));
+  background: linear-gradient(to right, rgba(6, 57, 64, 0.95), rgba(62, 131, 140, 0.95));
 }
 .menu li {
   padding: 0 0.7rem;
@@ -11854,6 +11854,51 @@ textarea.form-control-lg {
   color: #fff;
   text-transform: capitalize;
   font-weight: 600;
+}
+
+.perfil {
+  width: 100%;
+  margin: 60px auto 0 auto;
+  position: relative;
+}
+.perfil .border-dark {
+  background-image: url(https://i.pinimg.com/564x/e8/eb/83/e8eb8339caac6e80433df7cf2a29af7e.jpg);
+  background-color: #8ebdb6;
+  padding: 2rem;
+  padding-bottom: 60px;
+  border-radius: 25px;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.perfil .border-dark .border-primary {
+  padding: 1rem;
+  position: relative;
+}
+.perfil .border-dark .border-primary img {
+  max-width: 140px;
+  height: auto;
+  border-radius: 50%;
+  position: absolute;
+  top: 290%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.nome-rafa {
+  text-align: center;
+  font-size: 2rem;
+  color: #063940;
+  margin-top: 60px;
+}
+
+.nome-rafa-2 {
+  text-align: center;
+  color: #063940;
+}
+
+.sobre-mim {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

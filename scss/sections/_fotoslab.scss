@@ -1,0 +1,79 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+// .carrossel-fotos {
+//     // display: flex;
+//     // flex-direction: column; // Alinha os itens em uma coluna
+//     // width: 30%; // Define a largura total do carrossel
+//     // margin: auto; // Centraliza o container na tela
+//     // padding: 1rem; // Adiciona algum preenchimento interno, opcional
+
+//     .fotos-lab {
+//         display: flex;
+//         flex-direction: row; // Alinha as fotos em coluna
+//         align-items: center; // Centraliza as fotos horizontalmente
+//         width: 30%; // Garante que a div ocupe toda a largura disponível
+    
+//     }
+
+//     // .border-primary {
+//     //     // width: 30%; // Faz com que cada div de foto ocupe toda a largura disponível
+//     //     margin-bottom: 1rem; // Adiciona espaço entre as fotos
+//     // }
+
+//     img {
+//         width: 335px; // Garante que as imagens ocupem toda a largura do container pai
+//         height: 335px; // Mantém a proporção das imagens
+//         object-fit: cover;
+//     }
+
+//     @media (max-width: 896px) and (min-width: 414px) { // breakpoint para tablets e smartphones
+//         .fotos-lab {
+//             flex-direction: column; // Alinha as fotos em coluna no mobile
+//             width: 100%; // Garante que a div ocupe toda a largura disponível
+//         }
+
+//         img {
+//             width: 100%; // Define a largura das imagens para 100% do container no mobile
+//             height: auto; // Ajusta a altura proporcionalmente
+//             margin-bottom: 1rem; // Adiciona um espaço entre as fotos
+//         }
+//     }
+// }
+
+
+
+
+.carrossel-fotos {
+    display: flex;
+    justify-content: center; // Centraliza o container de fotos
+    padding: 1rem; // Adiciona algum preenchimento interno, opcional
+  
+
+    .fotos-lab {
+        display: flex;
+        flex-direction: column; // Alinha as fotos em coluna por padrão
+        align-items: center; // Centraliza as fotos horizontalmente
+        width: 70%; // Garante que o container ocupe 80% da largura disponível
+        max-width: 200px; // Limita a largura máxima do container
+
+        @media (min-width: 897px) { // Estilos para telas maiores
+            flex-direction: row; // Alinha as fotos em linha no desktop
+            width: 100%; // Garante que a div ocupe toda a largura disponível
+            max-width: none; // Remove a largura máxima no desktop
+        }
+    }
+    img {
+        width: 60%; // Define a largura das imagens para 100% do container
+        height: auto; // Mantém a proporção das imagens
+        object-fit: cover; // Garante que as imagens ocupem todo o espaço sem distorção
+        margin-bottom: 1rem; // Adiciona espaço entre as imagens
+
+        @media (min-width: 897px) { // Estilos para telas maiores
+            width: 310px; // Define um tamanho fixo para as imagens no desktop
+            height: 310px; // Define a altura correspondente
+            margin-bottom: 0; // Remove o espaço entre as imagens em linha
+            margin-right: 1rem; // Adiciona espaço entre as imagens em linha
+        }
+}
+}

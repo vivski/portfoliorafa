@@ -51,3 +51,21 @@
     margin-bottom: 40px;
 
 }
+
+
+.download-btn {
+    @include gradient;
+    display: inline-block;
+    padding: 10px 50px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.download-btn:hover {
+    background-color: #0056b3;
+}

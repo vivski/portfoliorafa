@@ -15,16 +15,15 @@
     @media (max-width: 768px) {
         padding-right: 1rem;
         padding-top: 2rem;
+        columns: 1;
         
         .icone-sobre {
-            margin-bottom: 1rem; // Adiciona espaço abaixo da imagem
-            flex-direction: column;
-        }
+
         img{
         width: 200px;
-        height: auto;
+        height: auto;}
+        }
     }
-}
 }
 // --- teste
 // .sobre-mim {

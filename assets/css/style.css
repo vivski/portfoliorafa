@@ -11913,12 +11913,9 @@ textarea.form-control-lg {
   .sobre-mim {
     padding-right: 1rem;
     padding-top: 2rem;
+    columns: 1;
   }
-  .sobre-mim .icone-sobre {
-    margin-bottom: 1rem;
-    flex-direction: column;
-  }
-  .sobre-mim img {
+  .sobre-mim .icone-sobre img {
     width: 200px;
     height: auto;
   }

@@ -11924,16 +11924,6 @@ textarea.form-control-lg {
   }
 }
 
-.sobre-mim h1 {
-  margin-top: 0;
-  margin-bottom: 40px;
-}
-
-.sobre-mim p {
-  margin-top: 0;
-  margin-bottom: 40px;
-}
-
 .icone-sobre {
   padding-left: 30px;
   margin-top: 0;
@@ -11945,6 +11935,16 @@ textarea.form-control-lg {
 .icone-sobre img {
   width: 400px;
   height: auto;
+}
+
+.sobre-mim h1 {
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.sobre-mim p {
+  margin-top: 0;
+  margin-bottom: 40px;
 }
 
 .carrossel-fotos {

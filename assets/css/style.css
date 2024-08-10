@@ -11901,16 +11901,6 @@ textarea.form-control-lg {
   text-align: center;
 }
 
-@media (max-width: 768px) {
-  .sobre-mim {
-    flex-direction: column;
-    text-align: center;
-  }
-  .sobre-mim .icone-sobre {
-    margin-bottom: 1rem;
-  }
-}
-
 .sobre-mim {
   padding-right: 40px;
   padding-top: 360px;
@@ -11918,6 +11908,20 @@ textarea.form-control-lg {
   text-align: center;
   columns: 2 450px;
   column-gap: 3rem;
+}
+@media (max-width: 768px) {
+  .sobre-mim {
+    padding-right: 1rem;
+    padding-top: 2rem;
+  }
+  .sobre-mim .icone-sobre {
+    margin-bottom: 1rem;
+    flex-direction: column;
+  }
+  .sobre-mim img {
+    width: 200px;
+    height: auto;
+  }
 }
 
 .sobre-mim h1 {

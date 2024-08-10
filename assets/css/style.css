@@ -11920,6 +11920,21 @@ textarea.form-control-lg {
     height: auto;
   }
 }
+.sobre-mim .download-btn {
+  background: linear-gradient(to right, rgba(6, 57, 64, 0.95), rgba(98, 160, 123, 0.95));
+  display: inline-block;
+  padding: 10px 50px;
+  font-size: 16px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.sobre-mim .download-btn:hover {
+  background-color: #0056b3;
+}
 
 .icone-sobre {
   padding-left: 30px;

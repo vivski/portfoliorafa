@@ -11845,7 +11845,7 @@ textarea.form-control-lg {
   }
 }
 .menu {
-  background: linear-gradient(to right, rgba(6, 57, 64, 0.95), rgba(62, 131, 140, 0.95));
+  background: linear-gradient(to right, rgba(6, 57, 64, 0.95), rgba(98, 160, 123, 0.95));
 }
 .menu li {
   padding: 0 0.7rem;
@@ -11899,6 +11899,24 @@ textarea.form-control-lg {
 
 .sobre-mim {
   text-align: center;
+}
+
+.sobre-mim {
+  border: #ece1c3;
+  box-shadow: 0 4px 8px #ece1c3;
+  color: #000;
+  text-align: center;
+  padding: 2rem;
+  max-width: 800px;
+  margin: 10rem auto 0;
+}
+.sobre-mim .textos {
+  max-width: 600px;
+  width: 100%;
+  margin: auto;
+}
+.sobre-mim .textos h1 {
+  height: auto;
 }
 
 /*# sourceMappingURL=style.css.map */

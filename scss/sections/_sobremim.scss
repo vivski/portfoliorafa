@@ -1,0 +1,22 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.sobre-mim{
+    border: $yellow-white;
+    box-shadow: 0 4px 8px $yellow-white;
+    color: $black;
+    text-align: center;
+    padding: 2rem;
+    max-width: 800px;
+    // margin: auto;
+    margin: 10rem auto 0;
+    
+  .textos{
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+    h1{
+        height: auto;
+    }
+  }
+}

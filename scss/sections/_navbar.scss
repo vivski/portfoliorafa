@@ -7,11 +7,16 @@
 
   li {
     padding: 0 0.7rem;
-
+    
     a {
-      color: $white;
+      // color: $white;
+      color: white;
       text-transform: capitalize;
       font-weight: 600;
     }
+    a:hover{
+      color: $dark-blue;
+    }
+   
   }
 }

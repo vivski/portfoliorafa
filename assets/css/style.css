@@ -11844,6 +11844,41 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.download-btn {
+  display: inline-block;
+  padding: 10px 50px;
+  font-size: 16px;
+  color: white;
+  background-color: #62A07B;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 0 0 1rem #063940;
+}
+
+.download-btn:hover {
+  background-color: #063940;
+}
+
+@media (max-width: 768px) {
+  .download-btn {
+    background: linear-gradient(to right, rgba(6, 57, 64, 0.95), rgba(98, 160, 123, 0.95));
+    display: inline-block;
+    padding: 10px 50px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0 0 1rem #063940;
+  }
+  .download-btn:hover {
+    background-color: #0056b3;
+  }
+}
 .menu {
   background: linear-gradient(to right, rgba(6, 57, 64, 0.95), rgba(98, 160, 123, 0.95));
 }
@@ -11851,9 +11886,12 @@ textarea.form-control-lg {
   padding: 0 0.7rem;
 }
 .menu li a {
-  color: #fff;
+  color: white;
   text-transform: capitalize;
   font-weight: 600;
+}
+.menu li a:hover {
+  color: #063940;
 }
 
 .perfil {
@@ -11901,6 +11939,14 @@ textarea.form-control-lg {
   text-align: center;
 }
 
+.accordion {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
 .sobre-mim {
   padding-right: 40px;
   padding-top: 360px;
@@ -11919,21 +11965,6 @@ textarea.form-control-lg {
     width: 200px;
     height: auto;
   }
-}
-.sobre-mim .download-btn {
-  background: linear-gradient(to right, rgba(6, 57, 64, 0.95), rgba(98, 160, 123, 0.95));
-  display: inline-block;
-  padding: 10px 50px;
-  font-size: 16px;
-  color: white;
-  background-color: #007bff;
-  border: none;
-  border-radius: 5px;
-  text-decoration: none;
-  cursor: pointer;
-}
-.sobre-mim .download-btn:hover {
-  background-color: #0056b3;
 }
 
 .icone-sobre {
@@ -11957,23 +11988,6 @@ textarea.form-control-lg {
 .sobre-mim p {
   margin-top: 0;
   margin-bottom: 40px;
-}
-
-.download-btn {
-  background: linear-gradient(to right, rgba(6, 57, 64, 0.95), rgba(98, 160, 123, 0.95));
-  display: inline-block;
-  padding: 10px 50px;
-  font-size: 16px;
-  color: white;
-  background-color: #007bff;
-  border: none;
-  border-radius: 5px;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.download-btn:hover {
-  background-color: #0056b3;
 }
 
 .carrossel-fotos {

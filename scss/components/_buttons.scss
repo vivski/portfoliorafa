@@ -1,0 +1,40 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.download-btn {
+    display: inline-block;
+    padding: 10px 50px;
+    font-size: 16px;
+    color: white;
+    background-color: $verde-lago;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0 0 1rem $dark-blue;
+}
+
+.download-btn:hover {
+    // background-color: #0056b3;
+    background-color: $dark-blue;
+
+}
+
+@media (max-width: 768px) {
+    .download-btn {
+        @include gradient;
+        display: inline-block;
+        padding: 10px 50px;
+        font-size: 16px;
+        color: white;
+        background-color: #007bff;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        cursor: pointer;
+        box-shadow: 0 0 1rem $dark-blue;
+    }
+    .download-btn:hover {
+        background-color: #0056b3;
+    }
+}

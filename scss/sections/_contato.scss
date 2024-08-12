@@ -1,0 +1,15 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.container-contato{
+    text-align: center;
+
+    .section-contato{
+        text-align: center;
+    }
+}
+
+.icon img{
+    width: 20px;
+    height: 20px;
+}

@@ -18,3 +18,21 @@
  .accordion-collapse {
    overflow: hidden;
  }
+
+ .icon {
+ 
+    padding: 0 0.7rem;
+    
+    a {
+      // color: $white;
+      // display: flex;
+      color: $black;
+      text-transform: capitalize;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    a:hover{
+      color: $dark-blue;
+    }
+   
+}

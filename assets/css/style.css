@@ -11929,6 +11929,23 @@ div {
   border-radius: 5px;
 }
 
+footer {
+  font-family: "Comfortaa", sans-serif;
+  text-align: center;
+}
+
+.container-contato {
+  text-align: center;
+}
+.container-contato .section-contato {
+  text-align: center;
+}
+
+.icon img {
+  width: 20px;
+  height: 20px;
+}
+
 .menu {
   background: linear-gradient(to right, rgba(6, 57, 64, 0.95), rgba(98, 160, 123, 0.95));
 }
@@ -12003,6 +12020,19 @@ div {
 
 .accordion-collapse {
   overflow: hidden;
+}
+
+.icon {
+  padding: 0 0.7rem;
+}
+.icon a {
+  color: #000;
+  text-transform: capitalize;
+  font-weight: 600;
+  text-decoration: none;
+}
+.icon a:hover {
+  color: #063940;
 }
 
 .sobre-mim {

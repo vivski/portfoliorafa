@@ -4,34 +4,31 @@
 
 .carrossel-fotos {
     display: flex;
-    justify-content: center; // Centraliza o container de fotos
-    padding: 1rem; // Adiciona algum preenchimento interno, opcional
-  
+    justify-content: center;
+    padding: 1rem; 
 
-    .fotos-lab {
-        display: flex;
-        flex-direction: column; // Alinha as fotos em coluna por padrão
-        align-items: center; // Centraliza as fotos horizontalmente
-        width: 70%; // Garante que o container ocupe 80% da largura disponível
-        max-width: 200px; // Limita a largura máxima do container
-
-        @media (min-width: 897px) { // Estilos para telas maiores
-            flex-direction: row; // Alinha as fotos em linha no desktop
-            width: 100%; // Garante que a div ocupe toda a largura disponível
-            max-width: none; // Remove a largura máxima no desktop
-        }
-    }
-    img {
-        width: 60%; // Define a largura das imagens para 100% do container
-        height: auto; // Mantém a proporção das imagens
-        object-fit: cover; // Garante que as imagens ocupem todo o espaço sem distorção
-        margin-bottom: 1rem; // Adiciona espaço entre as imagens
-
-        @media (min-width: 897px) { // Estilos para telas maiores
-            width: 310px; // Define um tamanho fixo para as imagens no desktop
-            height: 310px; // Define a altura correspondente
-            margin-bottom: 0; // Remove o espaço entre as imagens em linha
-            margin-right: 1rem; // Adiciona espaço entre as imagens em linha
-        }
 }
+.fotos-lab {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+
+
+}
+.fotos-lab img {
+     width: 200px;
+     height: 300px; 
+     object-fit: cover; 
+     border-radius: 5px;    
+     
+     
+     object-fit: cover; 
+     
+     
+     margin-bottom: 1rem; 
+
 }

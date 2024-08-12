@@ -9,4 +9,12 @@
    border-radius: 15px;
    overflow: hidden;
 
+
 }
+.accordion-body {
+   position: relative; /* Garante que o conteúdo fique contido dentro do accordion */
+ }
+
+ .accordion-collapse {
+   overflow: hidden;
+ }

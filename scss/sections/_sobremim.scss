@@ -5,10 +5,8 @@
     padding-right: 40px;
     padding-top: 360px;
     column-count: 2;
-    // column-width: 250px; 
     text-align: center;
     columns: 2 450px;
-    // column-rule: 3px solid #333;
     column-gap: 3rem;
 
     
@@ -24,23 +22,7 @@
         height: auto;}
         } 
     }
-    // .download-btn {
-    //     @include gradient;
-    //     display: inline-block;
-    //     padding: 10px 50px;
-    //     font-size: 16px;
-    //     color: white;
-    //     background-color: #007bff;
-    //     border: none;
-    //     border-radius: 5px;
-    //     text-decoration: none;
-    //     cursor: pointer;
-    //     box-shadow: 0 0 1rem $dark-blue;
-    // }
-    
-    // .download-btn:hover {
-    //     background-color: #0056b3;
-    // }
+
 }
  
 .icone-sobre {
@@ -68,23 +50,3 @@
     margin-bottom: 40px;
 
 }
-
-
-// .download-btn {
-//     display: inline-block;
-//     padding: 10px 50px;
-//     font-size: 16px;
-//     color: white;
-//     background-color: #007bff;
-//     border: none;
-//     border-radius: 5px;
-//     text-decoration: none;
-//     cursor: pointer;
-//     box-shadow: 0 0 1rem $dark-blue;
-// }
-
-// .download-btn:hover {
-//     // background-color: #0056b3;
-//     color: $black;
-
-// }

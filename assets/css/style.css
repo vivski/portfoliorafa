@@ -11879,6 +11879,28 @@ textarea.form-control-lg {
     background-color: #0056b3;
   }
 }
+.fotos-container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.fotos-estagio {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  width: 400px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.fotos-estagio img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
 .menu {
   background: linear-gradient(to right, rgba(6, 57, 64, 0.95), rgba(98, 160, 123, 0.95));
 }
@@ -11944,6 +11966,14 @@ textarea.form-control-lg {
   width: 80%;
   margin: 0 auto;
   border-radius: 15px;
+  overflow: hidden;
+}
+
+.accordion-body {
+  position: relative; /* Garante que o conteúdo fique contido dentro do accordion */
+}
+
+.accordion-collapse {
   overflow: hidden;
 }
 

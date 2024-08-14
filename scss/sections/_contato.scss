@@ -3,8 +3,10 @@
 
 .container-contato{
     text-align: center;
-
+    background-color: $baby-blue; 
     .section-contato{
+        // justify-content: space-between; 
+    
         text-align: center;
     }
 }

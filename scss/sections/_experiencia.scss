@@ -36,3 +36,25 @@
     }
    
 }
+
+
+.container-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; 
+  margin: 50px 0;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.icon-logo,
+.icons {
+  margin-right: 10px;
+}
+
+.icon-logo img,
+.icons img {
+
+  max-width: 100%;
+  height: auto;
+}

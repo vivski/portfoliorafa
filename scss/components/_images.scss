@@ -1,31 +1,3 @@
-@use '../custom' as *;
-@use '../components/mixins' as *;
-
-// .fotos-container {
-//     display: flex;
-//     justify-content: center; 
-//     margin: 0 auto; 
-// }
-
-// .fotos-estagio {
-//     display: grid;
-//     grid-template-columns: repeat(2, 1fr); 
-//     gap: 10px; 
-//     width: 400px; 
-//     height: 400px; 
-//     margin: 0 auto;
-// }
-
-// .fotos-estagio img {
-//     width: 100%; // Preenche toda a célula do grid
-//     height: 100%; // Preenche toda a célula do grid
-//     object-fit: cover; // Mantém a proporção da imagem e cobre toda a célula
-//     border-radius: 5px; // Bordas arredondadas
-//   }
-
-//   .fotos-estagio {
-//     max-width: 100%; /* Mantém as imagens dentro do tamanho máximo permitido */
-//   }
 
 @use '../custom' as *;
 @use '../components/mixins' as *;

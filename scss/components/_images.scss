@@ -2,24 +2,24 @@
 @use '../custom' as *;
 @use '../components/mixins' as *;
 
-.fotos-container {
-    display: flex;
-    justify-content: center; 
-    margin: 0 auto; 
-}
+// .fotos-container {
+//     display: flex;
+//     justify-content: center; 
+//     margin: 0 auto; 
+// }
 
-.fotos-estagio {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); // 2 colunas
-    gap: 10px; // Espaçamento entre as fotos
-    width: 400px; // Largura total do container
-    height: auto; // Altura automática para ajustar ao conteúdo
-    margin: 0 auto;
-}
+// .fotos-estagio {
+//     display: grid;
+//     grid-template-columns: repeat(2, 1fr); // 2 colunas
+//     gap: 10px; // Espaçamento entre as fotos
+//     width: 400px; // Largura total do container
+//     height: auto; // Altura automática para ajustar ao conteúdo
+//     margin: 0 auto;
+// }
 
-.fotos-estagio img {
-    width: 200px; // Preenche toda a célula do grid
-    height: 300px; // Mantém a altura proporcional da imagem
-    object-fit: cover; // Mantém a proporção da imagem e cobre toda a célula
-    border-radius: 5px; // Bordas arredondadas
-}
+// .fotos-estagio img {
+//     width: 200px; // Preenche toda a célula do grid
+//     height: 300px; // Mantém a altura proporcional da imagem
+//     object-fit: cover; // Mantém a proporção da imagem e cobre toda a célula
+//     border-radius: 5px; // Bordas arredondadas
+// }

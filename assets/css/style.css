@@ -11907,28 +11907,6 @@ div {
   font-style: normal;
 }
 
-.fotos-container {
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-}
-
-.fotos-estagio {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-  width: 400px;
-  height: auto;
-  margin: 0 auto;
-}
-
-.fotos-estagio img {
-  width: 200px;
-  height: 300px;
-  object-fit: cover;
-  border-radius: 5px;
-}
-
 footer {
   font-family: "Comfortaa", sans-serif;
   text-align: center;
@@ -12058,9 +12036,13 @@ footer {
   margin-right: 0;
 }
 
+.experiencias {
+  text-align: center;
+  margin-top: 40px;
+}
+
 .sobre-mim {
   padding-right: 40px;
-  padding-top: 360px;
   column-count: 2;
   text-align: center;
   columns: 2 450px;
@@ -12099,11 +12081,6 @@ footer {
 .sobre-mim p {
   margin-top: 0;
   margin-bottom: 40px;
-}
-
-.experiencias {
-  text-align: center;
-  margin-top: 40px;
 }
 
 .carrossel-fotos {
